@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatMan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+
+  </head>
+  <body>
+
+    <section class="chat__section">
+
+      <div class="brand">
+        <img class="logo" src="logochat.png" alt="">
+        <h1 class="chat chatman">Chat</h1>
+        <h1 class="man chatman">Man</h1>
+        <img class="me" src="me.png" alt="">
+      </div>
+
+    <section>
+        <div class="message__area"> </div>
+    </section>
+
+      <div>
+        <textarea id="textarea" rows="2" cols="100" placeholder="Type your message here..."></textarea>
+      </div>
+
+    </section>
+
+
+    <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script src="/client.js" charset="utf-8"></script>
+    <!-- <script type="module">  import { io } from "https://cdn.socket.io/4.3.2/socket.io.esm.min.js";</script> -->
+  </body>
+</html>
